@@ -1,0 +1,26 @@
+.pintura__container {
+  width: 250px;
+  height: 300px;
+  margin: 5%;
+  display: grid;
+  grid-template-rows: 1fr 80px;
+  /* border: 1px solid var(--text); */
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px var(--text);
+  overflow: hidden;
+}
+
+.pintura__img {
+  width: 100%;
+  height: 100%;
+}
+
+.pintura__title {
+  width: 100%;
+  height: 100%;
+  padding: 20px 0 0 0;
+  background-color: var(--text);
+  color: var(--primary);
+  text-align: center;
+  font-size: 1.3rem;
+}

@@ -1,0 +1,10 @@
+.header {
+  width: max-content;
+  margin: 0 auto;
+  background-color: var(--fondo);
+}
+
+/* .header img {
+  margin: auto;
+} */
+

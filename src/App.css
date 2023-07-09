@@ -1,0 +1,6 @@
+.pinturas {
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
