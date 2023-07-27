@@ -2,7 +2,8 @@
   --primary: #acd9e1;
   --secondary: #78adb6;
   --fondo: #fff8f5;
-  --text: #495551;
+  /* --text: #495551; */
+  --gris: #474646;
 }
 
 * {
@@ -13,17 +14,13 @@
 
 body {
   width: 100vw;
-  height: 100vh;
   background-color: var(--fondo);
+  font-size: 18px;
 }
 
 #root {
   width: 100%;
   height: 100%;
-  padding: 30px 0;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: start;
+  /* background-color: var(--secondary); */
+  position: relative;
 }

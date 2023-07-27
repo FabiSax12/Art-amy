@@ -1,26 +1,17 @@
 import './App.css'
-import Header from './components/Header'
-import Pintura from './components/Pintura'
+import "./scss/styles.scss"
+import * as bootstrap from "bootstrap"
+import Navbar from './components/Navbar'
+import SobreMi from './components/SobreMi'
+import Pinturas from './components/Pinturas'
+import Carrussel from './components/Carrussel'
 
 function App() {
   return (
     <>
-      <Header />
-      <section className='pinturas'>
-        <Pintura
-          imagen="./src/assets/VanGohg.jpg"
-          titulo="Pintura Anime"
-        />
-        <Pintura
-          imagen="./src/assets/VanGohg.jpg" 
-          titulo="Paisaje"
-        />
-        <Pintura
-          imagen="./src/assets/VanGohg.jpg"
-          titulo="Firulais"
-        />
-        
-      </section>
+      <Navbar />
+      <SobreMi />
+      <Carrussel />
     </>
   )
 }

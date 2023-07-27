@@ -1,0 +1,59 @@
+{
+  "Pinturas":[
+    {
+      "titulo": "Retrato de Mascota",
+      "imagen": "IMG-20230710-WA0006.jpg",
+      "id": 0
+    },
+    {
+      "titulo": "Boku no Hero",
+      "imagen": "IMG-20230710-WA0007.jpg",
+      "id": 1
+    },
+    {
+      "titulo": "Anime",
+      "imagen": "IMG-20230710-WA0008.jpg",
+      "id": 2
+    },
+    {
+      "titulo": "Palo",
+      "imagen": "IMG-20230710-WA0009.jpg",
+      "id": 3
+    },
+    {
+      "titulo": "Piedra con Rosas",
+      "imagen": "IMG-20230710-WA0010.jpg",
+      "id": 4
+    },
+    {
+      "titulo": "Paisaje en Piedra",
+      "imagen": "IMG-20230710-WA0011.jpg",
+      "id": 5
+    },
+    {
+      "titulo": "Retrato de Mascota",
+      "imagen": "IMG-20230710-WA0012.jpg",
+      "id": 6
+    },
+    {
+      "titulo": "Spider-Man",
+      "imagen": "IMG-20230710-WA0013.jpg",
+      "id": 7
+    },
+    {
+      "titulo": "Goju",
+      "imagen": "IMG-20230710-WA0014.jpg",
+      "id": 8
+    },
+    {
+      "titulo": "Boruca`s Mask",
+      "imagen": "IMG-20230710-WA0015.jpg",
+      "id": 9
+    },
+    {
+      "titulo": "Noche Estrellada - Van Gogh",
+      "imagen": "IMG-20230710-WA0016.jpg",
+      "id": 10
+    }
+  ]
+}

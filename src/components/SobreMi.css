@@ -1,0 +1,42 @@
+.sobremi__container {
+  width: 70%;
+  height: calc(90vh - 100px);
+  margin: 0 auto;
+  padding-top: 100px;
+  display: grid;
+  column-gap: 30px;
+  grid-template-columns: max-content 1fr;
+
+}
+
+.sobremi__img {
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  border: none;
+  border-radius: 50%;
+  position: relative;
+}
+
+.sobremi__img img {
+  position: absolute;
+  top: -90px;
+  left: -90px;
+}
+
+.sobremi__texto {
+  line-height: 25px;
+}
+
+.sobremi__texto_titulo {
+  margin-top: 80px;
+  margin-bottom: .5em;
+}
+.sobremi__texto_titulo b{
+  color: var(--secondary);
+}
+
+.sobremi__texto_subtitulo {
+  margin-bottom: 1em;
+  color: var(--secondary);
+} 

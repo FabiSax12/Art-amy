@@ -1,0 +1,14 @@
+.pinturas__container {
+  width: 100%;
+  background-color: var(--primary);
+  text-align: center;
+}
+
+.pinturas__grid_container {
+  width: 80vw;
+  margin: 50px auto;
+  display: grid;
+  gap: 20px;
+  row-gap: 100px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}

@@ -1,8 +1,8 @@
 import React from 'react'
-import "./Pintura.css"
+import "./PinturaCard.css"
 
 
-const Pintura = ({ imagen, titulo }) => {
+const PinturaCard = ({ imagen, titulo }) => {
   return (
     <div className="pintura__container">
       <img className='pintura__img' src={imagen}></img>
@@ -11,4 +11,4 @@ const Pintura = ({ imagen, titulo }) => {
   )
 }
 
-export default Pintura
+export default PinturaCard
