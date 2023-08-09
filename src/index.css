@@ -13,7 +13,6 @@
 }
 
 body {
-  width: 100vw;
   background-color: var(--fondo);
   font-size: 18px;
 }

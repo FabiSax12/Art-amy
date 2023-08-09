@@ -1,7 +1,27 @@
+section#pinturas {
+  height: 90vh;
+  background-color: var(--secondary);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #carrusel {
-  width: 400px;
+  display: block;
+  max-width: 400px;
+  height: 470px;
+  margin: 50px 20px;
+  background-color: var(--secondary); 
+  overflow: hidden;
+}
+
+.carousel-inner {
+  width: 100%;
+  min-height: 100%;
 }
 
 .carousel-indicators {
-  width: 300px;
+  max-width: 300px;
 }
+

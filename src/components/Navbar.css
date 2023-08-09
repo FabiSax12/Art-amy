@@ -1,7 +1,7 @@
 /* ----- Logo ----- */
 .navbar__container {
   width: 100%;
-  height: 10vh;
+  height: 12vh;
   background-color: #474646;
   color: var(--primary);
   display: flex;
@@ -38,14 +38,86 @@
   justify-content: space-between;
 }
 
-.navbar__buttons button {
+.navbar__buttons a {
   background-color: transparent;
   color: var(--primary);
   border: none;
   font-size: 20px;
+  text-decoration: none;
   cursor: pointer;
 }
 
-.navbar__buttons button:hover {
+.navbar__buttons a:hover {
   text-decoration: underline;
+}
+
+/* Menu Hamburguesa */
+.navbar__container svg {
+  display: none;
+}
+
+
+/* Mediaqueries */
+@media screen and (max-width: 550px) {
+  .navbar__container svg {
+    display: block;
+  }
+  .navbar__buttons svg {
+    transform: scale(1.2);
+  }
+  .navbar__buttons a {
+    margin-top: 30px;
+  }
+
+  .navbar__buttons {
+    width: 200px;
+    height: 100vh;
+    padding: 2rem;
+    background-color: var(--gris);
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    transition: all ease .3s;
+  }
+  /* Estados del Navbar */
+  .navbar__buttons.opened {
+    width: 200px;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .4);
+  }
+  .navbar__buttons.closed {
+    right: -200px;
+    width: 0px;
+    padding: 0;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0);
+  }
+  
+}
+
+
+/* Keyframes */
+@keyframes open_navbar {
+  0% {
+    right: -200px;
+    display: flex;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .4);
+    right: 0;
+  }
+}
+@keyframes close_navbar {
+  0% {
+    right: 0;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .4);
+  }
+  100% {
+    display: none;
+    right: -200px;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0);
+  }
 }
