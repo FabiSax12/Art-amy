@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <header className="navbar__container">
       <div className="navbar__logo_container">
-        <img src="public/ArtamyBG.png" alt="Logo" className="navbar__logo_img"/>
+        <img src="/ArtamyBG.png" alt="Logo" className="navbar__logo_img"/>
         <span className="navbar__logo_nombre">Art  amy</span>
       </div>
       <nav className={`navbar__buttons ${navState ? "opened" : "closed"}`}>

@@ -22,7 +22,7 @@ const Carrussel = () => {
         <div className="carousel-inner">
           {data.Pinturas.map(i => (
             <div key={i.id} className={`carousel-item ${i.id === 0 ? "active" : null}`}>
-              <img src={`public/Pinturas/${i.imagen}`} className="d-block w-100"  alt={i.titulo}/>
+              <img src={`/Pinturas/${i.imagen}`} className="d-block w-100"  alt={i.titulo}/>
             </div>
           ))}
         </div>
