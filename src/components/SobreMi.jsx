@@ -4,7 +4,7 @@ const SobreMi = () => {
   return (
     <section className="sobremi__container" id="sobreMi">
       <div className="sobremi__img">
-        <img src="./src/assets/Amy-selfie.png" alt="Foto de Perfil" />
+        <img src="public/Amy-selfie.PNG" alt="Foto de Perfil" />
       </div>
       <article className="sobremi__texto">
         <h2 className="sobremi__texto_titulo">¡Hola, soy <b>Amy</b>!</h2>
